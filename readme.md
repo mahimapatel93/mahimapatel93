@@ -2,8 +2,7 @@
 
 # Mahima Patel
 
-### Cloud & DevOps Engineer | AWS · Terraform · Docker · Kubernetes
-
+### Cloud & DevOps Engineer 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=2EA3F7&center=true&vCenter=true&width=550&lines=Building+scalable+cloud+infrastructure...;Automating+deployments+with+CI%2FCD;AWS+%7C+Terraform+%7C+Docker+%7C+Kubernetes;Always+learning%2C+always+shipping.)](https://git.io/typing-svg)
 
 <br>
