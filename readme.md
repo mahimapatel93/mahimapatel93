@@ -8,7 +8,7 @@
 <br>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahimapatel93)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahima-patel-832b00293)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahimapatel93)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:patelmahimaa99@gmail.com)
 
 </div>
@@ -17,8 +17,8 @@
 
 ## 🧭 About Me
 
-- 🎓 Computer Science undergraduate (B.Tech, 2022 – 2026), Eklavya University — CGPA 8.6/10
-- ☁️ Hands-on experience with **AWS** and **DevOps** tooling — Terraform, Docker, Kubernetes, Jenkins
+- 🎓 Computer Science undergraduate (B.Tech, 2022 – 2026), Eklavya University, Damoh, Madhya Pradesh — CGPA 8.6/10
+- ☁️ Hands-on experience with **AWS** and **DevOps** tooling — Terraform, OpenTofu, Docker, Kubernetes (EKS), OpenShift, Jenkins
 - 🔧 Comfortable building **CI/CD pipelines** and managing cloud infrastructure end-to-end
 - 🚀 Currently focused on GitOps workflows, container orchestration, and infrastructure automation
 - 🌱 Seeking to grow further in a **DevOps Engineer** role
@@ -36,13 +36,18 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![OpenShift](https://img.shields.io/badge/OpenShift-EE0000?style=flat-square&logo=redhatopenshift&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 **CI/CD & Quality**
 
 ![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 ![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=flat-square&logo=sonarqube&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
 
 **Monitoring**
 
@@ -52,11 +57,12 @@
 
 **Languages & Databases**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python%20(Boto3)-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon%20RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
 
 **Tools**
@@ -74,19 +80,19 @@
 <td width="50%" valign="top">
 
 ### 🌐 Highly Available Web App on AWS
-Designed and deployed a fault-tolerant 3-tier architecture across multiple Availability Zones, provisioned entirely with Terraform. Includes Auto Scaling, an Application Load Balancer, and CloudWatch → SNS → Slack alerting.
+Designed and deployed a highly available 3-tier architecture across multiple Availability Zones for scalability and fault tolerance, provisioned entirely with Terraform. Configured EC2 instances behind an Application Load Balancer with Auto Scaling based on CPU utilization, applied IAM roles and security groups following AWS best practices, and set up CloudWatch alarms → SNS → Slack alerting for real-time, proactive issue resolution.
 
-**Stack:** `EC2` `VPC` `ALB` `Auto Scaling` `IAM` `S3` `Terraform` `CloudWatch` `SNS`
+**Stack:** `EC2` `VPC` `ALB` `Auto Scaling` `IAM` `S3` `Terraform` `CloudWatch` `SNS` `Slack`
 
 [🔗 View Repo](https://github.com/mahimapatel93)
 
 </td>
 <td width="50%" valign="top">
 
-### 🔄 CI/CD + GitOps Pipeline
-End-to-end Jenkins pipeline with SonarQube quality gates, Docker containerization, Trivy vulnerability scanning, and GitOps-based deployment to EKS via Argo CD — cutting manual deployment effort by 70%.
+### 🔄 CI/CD + GitOps Pipeline for Spring Boot App
+End-to-end Jenkins pipeline automating build, test, and deployment (cutting manual effort by 70%), with SonarQube quality gates, Docker containerization and DockerHub image versioning, Trivy vulnerability scanning, and GitOps-based deployment to Kubernetes (EKS) via Argo CD with automatic sync from GitHub. Includes automated Slack notifications for real-time pipeline monitoring.
 
-**Stack:** `Jenkins` `Docker` `EKS` `Argo CD` `SonarQube` `Trivy`
+**Stack:** `Jenkins` `Docker` `AWS` `Kubernetes (EKS)` `Argo CD` `SonarQube` `GitHub` `Apache` `Maven` `Trivy` `Slack`
 
 [🔗 View Repo](https://github.com/mahimapatel93)
 
@@ -137,8 +143,15 @@ Additional infrastructure-as-code experiments, Kubernetes manifests, and automat
 
 ## 💼 Experience
 
-- **DevOps & Cloud Projects** — Applied AWS, Terraform, Docker, and Kubernetes across multiple end-to-end infrastructure and CI/CD initiatives
+- **DevOps & Cloud Projects** — Applied AWS, Terraform, OpenTofu, Docker, Kubernetes, and Argo CD across multiple end-to-end infrastructure and CI/CD initiatives
 - **Hackfest 2026, Naresh IT Technologies** — Built and deployed an AI-enabled finance management system under time-boxed hackathon conditions
+
+<br>
+
+## 🎓 Education
+
+**Bachelor of Technology (B.Tech) – Computer Science Engineering**
+Eklavya University, Damoh, Madhya Pradesh | 2022 – 2026 | CGPA: 8.6/10
 
 <br>
 
@@ -146,7 +159,7 @@ Additional infrastructure-as-code experiments, Kubernetes manifests, and automat
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahima-patel-832b00293)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mahimapatel93)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mahimapatel93)
 [![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:patelmahimaa99@gmail.com)
 
